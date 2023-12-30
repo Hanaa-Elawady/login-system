@@ -51,6 +51,7 @@ document.getElementById("signUp").addEventListener('click' ,function(){
         }}
 
     else{
+        document.getElementById("modal").click();
         hintSignUp.classList.add("bg-danger");
         hintSignUp.classList.remove("bg-success");
         hintSignUp.innerHTML="Please Check feilds in Red and try again";
